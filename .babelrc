@@ -1,6 +1,6 @@
 {
   "presets": [
-    ["env", { "modules": false }],
-    "stage-3"
-  ]
+    ["env", { "modules": false }]
+  ],
+  "plugins": ["transform-async-to-generator", "transform-object-rest-spread"]  
 }
